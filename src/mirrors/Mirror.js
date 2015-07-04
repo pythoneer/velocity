@@ -438,7 +438,7 @@ DEBUG = !!process.env.VELOCITY_DEBUG;
       ROOT_URL_PATH: options.rootUrlPath,
       ROOT_URL: options.rootUrl,
       FRAMEWORK: options.framework,
-      MONGO_URL: _getMongoUrl(options.framework),
+      //MONGO_URL: _getMongoUrl(options.framework),
       PARENT_URL: process.env.ROOT_URL,
       IS_MIRROR: true,
       HANDSHAKE: options.handshake,
